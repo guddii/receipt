@@ -19,3 +19,12 @@ Target: x86_64-apple-darwin16.3.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 ```
+
+Invoke program:
+```
+./receipt
+```
+## Program tests
+Test files require google test to run:
+- `ReceiptCollection.test.cpp` Contains ReceiptCollection unit tests
+- `ReceiptItem.test.cpp` Contains ReceiptItem unit tests
