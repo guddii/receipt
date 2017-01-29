@@ -7,9 +7,9 @@ A C++ project for receipt handling.
 This file can be compiled with `clang`:
 ```
 #!/usr/bin/env bash
-clang++ receipt.cpp -c -o receipt.o -std=c++11 -Weverything -Wno-c++98-compat
+clang++ receiptCollection.cpp -c -o receiptCollection.o -std=c++11 -Weverything -Wno-c++98-compat
 clang++ receiptItem.cpp -c -o recieptItem.o -std=c++11 -Weverything -Wno-c++98-compat
-clang++ main.cpp receipt.o recieptItem.o -o receipt -std=c++11 -Weverything -Wno-c++98-compat
+clang++ main.cpp receiptCollection.o recieptItem.o -o receipt -std=c++11 -Weverything -Wno-c++98-compat
 ```
 
 Build verified with:
